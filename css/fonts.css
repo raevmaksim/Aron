@@ -1,0 +1,85 @@
+/*
+          SourceSans3 
+
+font-family: 'SourceSans3ExtraLight';
+font-family: 'SourceSans3Light';
+font-family: 'SourceSans3Regular';
+font-family: 'SourceSans3Medium';
+font-family: 'SourceSans3MediumItalic';
+font-family: 'SourceSans3SemiBold';
+font-family: 'SourceSans3Bold';
+font-family: 'SourceSans3ExtraBold';
+font-family: 'SourceSans3Black';
+
+          Roboto
+*/
+@font-face {
+  font-family: 'SourceSans3ExtraLight';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(../fonts/SourceSans3-ExtraLight.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'SourceSans3Light';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/SourceSans3-Light.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'SourceSans3Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/SourceSans3-Regular.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'SourceSans3Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/SourceSans3-Medium.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'SourceSans3Italic';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/SourceSans3-Italic.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'SourceSans3MediumItalic';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/SourceSans3-MediumItalic.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'SourceSans3SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/SourceSans3-SemiBold.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'SourceSans3Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/SourceSans3-Bold.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'SourceSans3ExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../fonts/SourceSans3-ExtraBold.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'SourceSans3Black';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../fonts/SourceSans3-Black.ttf) format(truetype);
+}
