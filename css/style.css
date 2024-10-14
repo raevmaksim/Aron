@@ -43,13 +43,15 @@ body {
  font-size: 14px;
  color: var(--light-color);
 }
- .text_a:hover {
-   color: var(--acent-color);
+.text_a:hover {
+ color: var(--acent-color);
 }
 .text_h2 {
- font-family: 'SourceSans3Regular';
+ font-family: 'SourceSans3Light';
  font-size: 47px;
- text-align: center;
+ text-transform: uppercase;
+ letter-spacing: 3px;
+ color: var(--light-color);
 }
 
 .text_h3 {
@@ -102,9 +104,12 @@ body {
  max-width: 1240px;
  margin: 0 auto;
 }
+
 /* Header */
+
 .header {
   padding-top: 91px;
+  margin-bottom: 86px;
 }
 .header__flex {
   padding-left: 1px;
@@ -115,10 +120,6 @@ body {
 }
 .header__item_right {
   padding-top: 58px;
-}
-.header__title {
-}
-.text_h1 {
 }
 .header__sutitle {
   font-family: 'SourceSans3Bold';
@@ -134,8 +135,7 @@ body {
 .header__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 51px 7px;
-  
+  gap: 51px 7px;  
 }
 .header__card {
   display: flex;
@@ -145,17 +145,80 @@ body {
   height: 50px;
   margin-right: 20px;
 }
-.header__card_details {
-}
 .header__card_title {
   margin-bottom: 5px;
-}
-.text_h3 {
 }
 .header__text {
   max-width: 166px;
 }
-.text_p {
+
+/* Our blog */
+
+.ourblog {
+}
+.ourblog__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-left: 140px;
+  margin-bottom: 79px;
+}
+.ourblog__title {
+}
+.ourblog__link {
+  text-transform: uppercase;
+  line-height: 22px;
+  letter-spacing: 1px;
+  border-bottom: solid 1px #4A524A;
+  margin-right: 143px;
+}
+.ourblog__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.ourblog__card {
+  margin-bottom: 103px;
+  background-color: var(--gray-color);
+}
+.ourblog__card_img {
+}
+.qoublog__details {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.ourblog__card_title {
+  display: inline-block;
+  color: #ffffff;
+  font-family: 'SourceSans3Regular';
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  padding: 2px 17px 0px 9px;
+  border-radius: 2px;
+  background-color: #00663F;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.qoublog__text {
+  
+  font-family: 'SourceSans3Regular';
+  color: var(--light-color);
+  text-transform: uppercase;
+  font-size: 28px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  max-width: 256px;
+  margin-bottom: 39px;
+}
+.ourblog__card_link {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 32px;
 }
 
 
